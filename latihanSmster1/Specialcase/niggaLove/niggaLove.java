@@ -1,3 +1,4 @@
+package niggaLove;
 import java.util.Scanner;
 public class niggaLove{
     public static int hitungBangunDatar(int panjang,int lebar){
@@ -14,8 +15,8 @@ public class niggaLove{
 
         int totalLuas = hitungBangunDatar(p, l);
         System.out.println("Jadi luasnya: "+ totalLuas);
+        scanner.close();
     }
-        
-    }
+}
 
 
