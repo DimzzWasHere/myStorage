@@ -8,7 +8,7 @@ public class kalser {
 
                 System.out.println("---KALKULATOR SEDERHANA---");
                 System.out.print("Masukkan angka pertama: ");
-                duoble nor1 = scanner.nextDouble();
+                double nor1 = scanner.nextDouble();
                 System.out.print("Masukkan angka kedua: ");
                 double nor2 = scanner.nextDouble();
                 System.out.println("Pilih operasi yang anda ingin lakukan");

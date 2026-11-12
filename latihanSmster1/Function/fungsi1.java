@@ -1,4 +1,4 @@
-public class Main {
+public class fungsi1{
     public static int luasPersegiPanjang(int panjang, int lebar){
         int luas;
         luas = panjang * lebar;

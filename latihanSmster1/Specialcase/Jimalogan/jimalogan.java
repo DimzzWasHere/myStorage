@@ -1,9 +1,6 @@
-//---PROGRAM PERCABANGAN IF ELSE x OPERASI LOGIKA x PERBANDINGAN---//
-//--------------------Salam Satu Frekuensi-------------------------//
-//--------------------------From TRPL------------------------------//
-
+package Jimalogan;
 import java.util.Scanner;
-public class jimalogan {
+public class jimalogan{
     public static void main(String[] args) {
         try (Scanner scanner=new Scanner (System.in)){
             
