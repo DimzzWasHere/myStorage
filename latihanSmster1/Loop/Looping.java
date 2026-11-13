@@ -9,7 +9,7 @@ public class Looping{
                 do{
                     if(!greeting.equalsIgnoreCase("Hello")){
                         System.out.println("You must say hello to Alice!");
-                        scanner.nextLine();
+                        greeting = scanner.nextLine();
                     }
                 }while(!greeting.equalsIgnoreCase("Hello"));
                 if (greeting.equalsIgnoreCase("Hello")){
@@ -20,7 +20,7 @@ public class Looping{
                 do{
                     if((!ask.equalsIgnoreCase("Y"))&&(!ask.equalsIgnoreCase("N"))){
                         System.out.println("Choose correct option!");
-                        scanner.nextLine();
+                        ask = scanner.nextLine();
                     }
                 }while ((!ask.equalsIgnoreCase("Y"))&&(!ask.equalsIgnoreCase("N")));
                 if (ask.equalsIgnoreCase("N")){
