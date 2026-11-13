@@ -36,7 +36,14 @@ public class kalser {
                 System.out.println();
                 System.out.println("Program berhasil dijalankan. Ketik 'keluar' jika ingin menghentikan program. Ketik 'lanjut' utnuk melanjutkan!");
                 String input = scanner.next();
-                    if (input.equalsIgnoreCase("Keluar")){
+                do{
+                    if ((!input.equalsIgnoreCase("Keluar"))||(!input.equalsIgnoreCase("Lanjut"))){
+                        System.out.println("Ketik opsi yang benar!");
+                        scanner.next();
+                    }
+                }while ((!input.equalsIgnoreCase("Keluar"))||(!input.equalsIgnoreCase("Lanjut")));
+                
+                if (input.equalsIgnoreCase("Keluar")){
                         System.out.println("Sampai Jumpa");
                         break;
                 }   
