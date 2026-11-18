@@ -36,13 +36,13 @@ public class arrayLearning {
                 
                 String next;
                 System.out.println("Program selesai! Lanjut? (Y/T)");
-                next = scanner.next();
+                next=scanner.next();
                 do{
-                    if ((!next.equalsIgnoreCase("Y")&&(!next.equalsIgnoreCase("T")))) {
+                    if ((!next.equalsIgnoreCase("Y"))&&(!next.equalsIgnoreCase("T"))){
                         System.out.println("Masukkan opsi yang benar!");
                         next=scanner.next();
                     }
-                }while((!next.equalsIgnoreCase("Y")&&(!next.equalsIgnoreCase("T"))));
+                }while ((!next.equalsIgnoreCase("Y"))&&(!next.equalsIgnoreCase("T")));
 
                 if (next.equalsIgnoreCase("T")){
                     System.out.println("Terima kasih!");
